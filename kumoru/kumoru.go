@@ -83,7 +83,7 @@ func New() *KumoruClient {
 		BounceToRawString: false,
 		Client:            &http.Client{},
 		Data:              make(map[string]interface{}),
-		Debug:             false,
+		Debug:             true,
 		SliceData:         []interface{}{},
 		EndPoint:          &e,
 		Errors:            nil,
